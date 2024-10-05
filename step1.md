@@ -40,3 +40,5 @@ curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 Expected Result
 
 If the installation was successful, you should see the "Apache Ubuntu Default Page," indicating that your web server is correctly installed and accessible.
+<img width="612" alt="Screenshot 2024-10-04 at 8 06 06 PM" src="https://github.com/user-attachments/assets/a5fc79c2-98c0-45c2-ad0b-7ec1f67b5342">
+
