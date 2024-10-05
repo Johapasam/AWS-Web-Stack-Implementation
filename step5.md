@@ -51,4 +51,4 @@ sudo rm /var/www/projectlamp/index.php
 Conclusion
 
 With this step, PHP is enabled and configured correctly on your Apache web server. You can now build and serve dynamic PHP-based websites using your custom virtual host.
-![Final Output](Screenshot 2024-10-04 at 8.07.17 PM.png)
+![Final Output](https://github.com/Johapasam/Web-Stack-Implementation/blob/06fd9d1af46d8403b1642cf8b5f320f027471456/Screenshot%202024-10-04%20at%208.07.17%20PM.png)
