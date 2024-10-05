@@ -15,40 +15,27 @@ Apache HTTP Server, developed by the Apache Software Foundation, is the most wid
    sudo apt update
 Install Apache:
 bash
-Copy code
+
 sudo apt install apache2
 Verify Apache is Running:
-bash
-Copy code
+
 sudo systemctl status apache2
 Ensure the status shows as green and running.
 Configure Firewall
 
 To allow incoming traffic to your web server, open TCP port 80 (the default HTTP port). In the AWS EC2 Security Groups, add a rule to allow inbound connections on port 80 from any IP address (0.0.0.0/0).
-
-Testing
-
 Test Locally
 You can check if Apache is responding locally using:
 
-bash
-Copy code
 curl http://localhost:80
-or
 
-bash
-Copy code
 curl http://127.0.0.1:80
 Test Externally
 To test if Apache is accessible from the internet, open a web browser and navigate to:
 
-vbnet
-Copy code
 http://<Public-IP-Address>:80
 To retrieve your public IP address, you can use:
 
-bash
-Copy code
 curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 Expected Result
 
